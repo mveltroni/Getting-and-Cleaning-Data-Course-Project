@@ -26,5 +26,4 @@ I have decided to remove "-" symbol and "()" from column names to make names mor
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Data on mergesort the data frame by Subject and Activity and stored in merged_data_sel.
 The data are grouped by Subject and Activity and the mean is calculated by Group for each column.
-merged_data_mean<-merged_data_sel%>%group_by(Subject, Activity) %>% summarize_all(mean)
 The data are saved on merged_data_mean.txt file.
